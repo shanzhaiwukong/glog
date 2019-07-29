@@ -48,7 +48,7 @@ const (
 
 var (
 	env        = EnvConsole
-	timeFormat = "2006/01/02 15:04:05"
+	timeFormat = "2006/01/02 15:04:05.000"
 	mdb        DataBase
 	fileSize   int64 = 1024 * 1024 * 20
 
